@@ -5,14 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PantryStockerHosted.Shared.PantryItems
+namespace PantryStockerHosted.Shared.Dtos
 {
-    public class PantryItem
+    public class PantryItemDto
     {
         public string Name { get; set; }
         public double Amount { get; set; }
-        public MeasuresEnum Measures { get; set; }
-
+        public string Measures { get; set; }
     }
-    
 }
